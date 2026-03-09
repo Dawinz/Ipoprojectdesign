@@ -1,0 +1,299 @@
+Design a professional mobile UI for a Tanzanian real estate marketplace app called **IPO**.
+
+IPO connects property owners, madalali (agents), and property seekers. Users can browse, search, and contact agents to buy, rent, or book properties such as houses, apartments, land, villas, lodges, and short-stay properties.
+
+The design should feel like a **serious property marketplace**, not a travel or booking platform.
+
+The UI must be structured, clean, and realistic — similar in quality to apps like Zillow, Property24, and Airbnb — but localized for Tanzania.
+
+Avoid generic AI-style layouts. Use proper visual hierarchy, spacing, and component structure.
+
+---
+
+BRAND IDENTITY
+
+App name: IPO
+
+Primary colors (based on IPO logo):
+
+Primary gradient:
+Green → Blue
+
+#6BCB77
+#2F6BFF
+
+Secondary colors:
+
+Background: #F6F8FB
+Cards: #FFFFFF
+Primary text: #1A1A1A
+Secondary text: #6B7280
+Accent (for price tags or highlights): #FFB020
+
+Typography:
+
+Primary font: Inter or SF Pro
+
+Large titles: Bold
+Section titles: SemiBold
+Body text: Medium
+Metadata text: Regular
+
+Spacing system: 8pt grid
+
+Corner radius:
+Cards: 16px
+Buttons: 12px
+
+Soft professional shadows.
+
+---
+
+APP STRUCTURE
+
+Bottom navigation with 5 tabs:
+
+Home
+Search
+Saved
+Messages
+Profile
+
+---
+
+ONBOARDING
+
+1 Splash screen with IPO logo
+2 Onboarding – Find properties
+3 Onboarding – Connect with madalali
+4 Onboarding – Buy, rent, or invest
+5 Login screen
+6 Sign up screen
+7 Phone verification
+8 OTP verification
+
+---
+
+HOME SCREEN
+
+Design a professional real estate discovery home screen.
+
+Sections:
+
+Search bar (location, buy/rent)
+
+Quick filters:
+
+Buy
+Rent
+Land
+Apartments
+Short Stay
+Commercial
+
+Featured properties
+
+Recommended near you
+
+Popular locations in Tanzania:
+
+Dar es Salaam
+Zanzibar
+Arusha
+Dodoma
+Mwanza
+Moshi
+
+Recently added listings
+
+Top madalali
+
+---
+
+SEARCH
+
+Search screen with filters.
+
+Filters include:
+
+Location
+Property type
+Price range
+Bedrooms
+Bathrooms
+Land size
+Listing type (buy/rent)
+
+Sorting options:
+
+Newest
+Lowest price
+Highest price
+Most viewed
+
+Include map view toggle.
+
+---
+
+PROPERTY LISTING CARD
+
+Design a reusable property card component.
+
+Include:
+
+Property image
+Price
+Property title
+Location
+Bedrooms
+Bathrooms
+Size
+Listing type tag (Buy / Rent)
+Save button (heart icon)
+
+Example title:
+
+"3 Bedroom House in Mbezi Beach"
+
+---
+
+PROPERTY DETAILS SCREEN
+
+Large gallery slider at top.
+
+Property information:
+
+Title
+Price
+Location
+Map preview
+Property description
+
+Key details:
+
+Bedrooms
+Bathrooms
+Land size
+Parking
+Furnished / Unfurnished
+
+Amenities section.
+
+Agent section:
+
+Agent photo
+Agent name
+Agency name
+Phone number
+WhatsApp button
+Call button
+
+Include “Contact Agent”.
+
+---
+
+MESSAGES
+
+Chat screen between buyer and agent.
+
+Simple chat UI.
+
+Property reference visible at top.
+
+---
+
+SAVED PROPERTIES
+
+Grid or list of saved properties.
+
+Each card shows price and location.
+
+---
+
+PROFILE
+
+Profile overview.
+
+Sections:
+
+My profile
+Saved properties
+My listings (for agents)
+Messages
+Settings
+Help & support
+
+---
+
+AGENT LISTING MANAGEMENT (MADALALI)
+
+Screen for agents to post listings.
+
+Add property form:
+
+Upload images
+Title
+Price
+Location
+Property type
+Bedrooms
+Bathrooms
+Land size
+Description
+
+Preview listing screen.
+
+---
+
+EMPTY STATES
+
+No listings found
+No saved properties
+No messages
+
+---
+
+COMPONENT SYSTEM
+
+Create reusable components:
+
+Property cards
+Buttons
+Inputs
+Search bars
+Filter chips
+Agent cards
+Map preview card
+Image gallery
+Navigation bar
+
+Use Auto Layout correctly.
+
+---
+
+VISUAL STYLE
+
+The app should feel:
+
+Professional
+Trustworthy
+Modern
+Real estate focused
+
+Use large property images and clear pricing.
+
+Avoid clutter.
+
+The UI must look realistic and suitable for a real production mobile app.
+
+---
+
+OUTPUT
+
+Create mobile frames sized for iPhone 14.
+
+Organize screens into sections.
+
+Create reusable components and color styles.
+
+Design should be ready for handoff to Flutter development.
